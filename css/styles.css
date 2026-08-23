@@ -1,0 +1,24 @@
+/*Imagen de fondo*/
+body {
+    background-image: url(/img/fondo_bajo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Cards*/
+
+/*Efecto de sobresalir cuando el cursor pase por encima de la card*/
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/*Suavizar el efecto de sobresalir*/
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+hr {
+    opacity: 0.3;
+}
