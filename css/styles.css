@@ -1,9 +1,9 @@
 /*Imagen de fondo*/
 body {
-    background-image: url(/img/fondo_bajo.jpg);
-    background-size: cover;
+    background-image: url(/img/rb-wp.jpg);
+    /*background-size: cover;*/
     background-position: center;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
 }
 
 /*Cards*/
@@ -21,4 +21,34 @@ body {
 
 hr {
     opacity: 0.3;
+}
+
+.imp-std-dim{
+    height: 1400px;
+    object-fit: cover;
+}
+
+.cap-std-dim{
+    height: 1100px;
+    object-fit: cover;
+}
+
+.tav-std-dim{
+    height: 1450px;
+    object-fit: cover;
+}
+
+.sov-std-dim{
+    height: 950px;
+    object-fit: cover;
+}
+
+.tec-std-dim{
+    height: 700px;
+    object-fit: cover;
+}
+
+.atr-std-dim{
+    height: 550px;
+    object-fit: cover;
 }
