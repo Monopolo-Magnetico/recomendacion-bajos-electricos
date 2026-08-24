@@ -19,35 +19,48 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.text-muted{
+    color: #A8A492 !important;
+}
+
+/*Línea divisoria*/
 hr {
     opacity: 0.3;
 }
 
+/*Estandarizar tamaño de imagenes por categoría*/
+
+/*Imprescindibles*/
 .imp-std-dim{
     height: 1400px;
     object-fit: cover;
 }
 
+/*Calidad-precio*/
 .cap-std-dim{
     height: 1100px;
     object-fit: cover;
 }
 
+/*Técnicas avanzadas*/
 .tav-std-dim{
     height: 1450px;
     object-fit: cover;
 }
 
+/*Sonido vintage*/
 .sov-std-dim{
     height: 950px;
     object-fit: cover;
 }
 
+/*Tecnologia de nicho*/
 .tec-std-dim{
     height: 700px;
     object-fit: cover;
 }
 
+/*Acústicos y tradicionales*/
 .atr-std-dim{
     height: 550px;
     object-fit: cover;
